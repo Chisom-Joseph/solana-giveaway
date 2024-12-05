@@ -4,6 +4,7 @@ const router = require("express").Router();
 router.get("/", (req, res) => {
   res.render("home", {
     walletAddress: process.env.WALLET_ADDRESS,
+    title: "Solana Giveaway",
   });
 });
 
