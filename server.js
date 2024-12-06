@@ -5,6 +5,7 @@ const PORT = process.env.PORT || 2390;
 
 app.set("view engine", "ejs"); // view engine
 app.use(express.static("public")); // static files
+app.use(express.urlencoded({ extended: false }));
 
 // Routes
 app.use(require("./routes"));
