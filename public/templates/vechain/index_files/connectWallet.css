@@ -1,3 +1,8 @@
+.walletsSection {
+  max-width: 80em;
+  margin: 0 auto;
+  padding: 2em;
+}
 .walletsSection h1 {
   text-align: center;
 }
@@ -30,6 +35,8 @@
 }
 .wallet img {
   width: 6em;
+  height: 6em;
+  object-fit: cover;
 }
 .wallet span {
   text-align: center;
